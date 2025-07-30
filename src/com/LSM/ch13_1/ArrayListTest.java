@@ -22,6 +22,17 @@ public class ArrayListTest {
 		System.out.println(strList.get(0));
 		System.out.println(strList.get(1)); //지우면 한칸씩 땡겨짐 usa삭제되서 index2는 jap
 //		System.out.println(strList.get(2)); 
+		
+		
+		for (int i=0;i<strList.size();i++) {
+			System.out.println(strList.get(i));
+			
+			
+		for(String str : strList) {
+			System.out.println(str);
+		}
+		}
+		
 	}
 
 }
