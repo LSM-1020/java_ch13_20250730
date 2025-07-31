@@ -17,11 +17,11 @@ public class MaxTest {
 		System.out.println(maxScore);
 		
 	
-		for(int score2: scores) {
-			sum = score2 + sum;
-			
-		}
-		System.out.println(sum);
+//		for(int score2: scores) {
+//			sum = score2 + sum;
+//			
+//		}
+//		System.out.println(sum);
 	}
 
 }
