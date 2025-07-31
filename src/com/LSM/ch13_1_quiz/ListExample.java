@@ -9,7 +9,7 @@ public class ListExample {
 		// TODO Auto-generated method stub
 
 		BoardDao dao = new BoardDao();
-		List<Board> boardlist = dao.getBoardDao();
+		List<Board> boardlist = dao.getBoardDao(); //List는 dao.getboarddao의 회원 정보를 차례차례 정리해서 저장함
 		
 		Iterator<Board> iterator = boardlist.iterator(); 
 		
